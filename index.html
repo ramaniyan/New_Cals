@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="display">
+                <input type="text" id="calc">
+            </div>
+             
+            <hr>
+          
+            <div>
+                <input type="button" value="C" onclick="clearDisplay('C') "class="on">
+                <input type="button" value="()"onclick="displayvalue('()')"class="color">
+                <input type="button" value="%" onclick="displayvalue('%') "class="color">
+                <input type="button" value="/" onclick="displayvalue('/') "class="color">
+            </div>
+            <div>
+                <input type="button" value="7" onclick="displayvalue('7') ">
+                <input type="button" value="8" onclick="displayvalue('8') ">
+                <input type="button" value="9" onclick="displayvalue('9') ">
+                <input type="button" value="*" onclick="displayvalue('*') "class="color">
+            </div>
+            <div>
+                <input type="button" value="4" onclick="displayvalue('4') ">
+                <input type="button" value="5" onclick="displayvalue('5') ">
+                <input type="button" value="6" onclick="displayvalue('6') ">
+                <input type="button" value="-" onclick="displayvalue('-') "class="color">
+            </div>
+            <div>
+                <input type="button" value="1" onclick="displayvalue('1') ">
+                <input type="button" value="2" onclick="displayvalue('2') ">
+                <input type="button" value="3" onclick="displayvalue('3') ">
+                <input type="button" value="+" onclick="displayvalue('+') "class="color">
+            </div>
+            <div>
+                
+                <input type="button" value="0"   onclick="displayvalue('0') ">
+                <input type="button" value="."   onclick="displayvalue('.') ">
+                <input type="button" value="="   onclick="calculateResult('=') "class="equal">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./index.js">
+        
+
+
+    
+</script>
+
+</html>
